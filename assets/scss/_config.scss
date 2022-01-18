@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+$bg-img: url("../img/laptop.jpeg");
+$bg-img2: url("../img/bg.jpg");
+$primary-color: #fff;
+$secondary-color:#78a7e2;
+$container: 100%;
+@mixin pozadina{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin flex-org{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+@mixin centriraj{
+    width:70%;
+    margin:0px auto;
+}
+@mixin overlay-slika{
+    background:rgba(0,0,0,0.7);
+    width: $container;
+    height:100%;
+    position: absolute;
+    top:0;
+    right:0;
+}

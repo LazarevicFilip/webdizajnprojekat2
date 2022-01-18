@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Portfolio!</title>
+    <link rel="shorcut icon" type="image/png" href="assets/img/favicon.ico"/>
+    <meta name="keywords" content="Portfolio,Sass,Less,skills,works" >
+    <meta name="author" content="Lazarevic Filip" >
+    <meta name="desription" content="Welcome to my Portfolio!">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <script src="https://kit.fontawesome.com/c97d44e72e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="bg-img">
+        <div class="overlay">
+            <nav>
+                <ul>
+                    <li><a href="#bg-img">Home</a></li>
+                    <li><a href="#clients">Skills</a></li>
+                    <li><a href="#mywork">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <button id="dugme">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#bg-img">Home</a>
+                    <a href="#clients">Skills</a>
+                    <a href="#mywork">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <section id="headings">
+                <h1>Filip<span class="secondary-text"> Lazarevic</span></h1>
+                <br>
+                <h2>Front-end Web Developer & Designer</h2>
+                <br>
+                <div class="icons">
+                    <a href="https://www.facebook.com/filip.lazarevic.35" target="_blank"><i class='fab fa-facebook-square fa-3x'></i></a>
+                    <a href="https://www.youtube.com/channel/UC5ZBWq96d2y7IL4Okn-dRww?view_as=subscriber" target="_blank"><i class='fab fa-youtube fa-3x'></i></a>
+                    <a href="https://www.instagram.com/lazarevic10/?hl=sr" target="_blank"><i class='fab fa-instagram fa-3x'></i></a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section id="about">
+        <div class="about-heading">
+            <h3 class="title">About me</h3>
+        </div>
+        <div class="info resp">
+            <img src="assets/img/ja.jpg" alt="autor">
+        </div>
+        <div class="info txt">
+            <p>I'm Lazarevic Filip.I started to learn programming at the ICT collage about a year ago.I think I've learned a lot in the past year, but I know there's a lot more to learn.I'm 20 years old from Serbia.On this site you can see some of my works and check my web developers skills.You can find me on social media too!</p>
+        </div>
+        <div class="social-media">
+            <p class="sc">Short BIO:</p>
+            <ul>
+                <li><i class="fa fa-birthday-cake"></i>26.02.2000.</li>
+                <li><i class="fa fa-map-marker"></i>Pancevo,Serbia</li>
+                <li><i class="fa fa-graduation-cap"></i>Gymnasium Uros Predic Pancevo</li>
+                <li><i class="fa fa-graduation-cap"></i>ICT Collage 2019</li>
+            </ul>
+        </div> 
+    </section>
+    <section id="clients">
+        <div class="row">
+            <div class="client">
+                <p class="boja">8+</p>
+                <p>Partners</p>
+            </div>
+            <div class="client">
+                <p class="boja" >66+</p>
+                <p>Happy Clients</p>
+            </div>
+            <div class="client">
+                <p class="boja">24+</p>
+                <p>Projects Done</p>
+            </div>
+            <div class="client">
+                <p class="boja">100+</p>
+                <p>Meetings</p>
+            </div>
+        </div>
+    </section>
+    <section id="myskills">
+        <div class="overlay"></div>
+            <div class="row">
+                <h3 class="title">My Skills</h3>
+                <div class="skills">
+                    <i class='fab fa-html5 fa-10x'></i>
+                    <p>HTML 5</p>
+                </div>
+                <div class="skills">
+                    <i class='fab fa-css3 fa-10x'></i>
+                    <p>CSS 3</p>
+                </div>
+                <div class="skills">     
+                    <i class="fab fa-bootstrap fa-10x"></i>
+                    <p>BOOTSTRAP</p>
+                </div>
+                <div class="skills">
+                    <i class='fab fa-sass fa-10x'></i>
+                    <p>SASS</p>
+                </div>
+            </div>
+    </section>
+    <secttion id="mywork">
+        <div class="row">           
+            <h3>All my wokrs guarantee</h3>      
+             <div class="work">
+                <i class='fas fa-tablet-alt fa-2x'></i>
+                <h4>Responsive Design</h4>
+                <p>Responsive Web design is the approach that suggests that design should respond to the user’s behavior and environment based on screen size,platform and orientation.</p>
+            </div>
+            <div class="work">
+                <i class='fas fa-wrench fa-2x'></i>
+                <h4>SEO</h4>
+                <p>Search Engine Optimization is so important!Why?!How do you get your website in front of a wider audience?The answer is simple: SEO.And we can help you with that!</p>
+            </div>
+            <div class="work">
+                <i class='fas fa-puzzle-piece fa-2x'></i>
+                <h4>UX/UI Design</h4>
+                <p>A professionally designed website will help you emphasize your brand and increase business success!Always keep in mind your site goals and with who you interact with!</p>
+            </div>
+            <div class="work">
+                <i class='fas fa-shield-alt fa-2x'></i>
+                <h4>Web Security</h4>
+                <p>Web security means protecting a website or web application by detecting, preventing and responding to cyber threats.With us you don't need to worry,you are safe!</p>
+            </div>
+        </div>
+    </secttion>
+    <section id="contact">
+        <h3>Contact me</h3>
+        <article id="forma">
+            <form action="#" method="post">
+                <input type="text" class="field" name="fname" id="name" placeholder="Your name" required><br>
+                <input type="email" class="field" name="mail" id="mail" placeholder="Enter you Email" required>
+                <textarea name="message" class="field" id="message" cols="50" rows="10"placeholder="Your message" required></textarea>
+                <input type="submit" value="Submit" class="enter" id="enter">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <div class="row">
+            <p>All rights reserved &copy;</p>
+            <ul>
+                <li>
+                    <a href="assets/scss/style.scss" target="_blank">Sass</a>
+                </li>
+                <li>
+                    <a class="bez" href="assets/xml/sitemap.xml" target="_blank">Sitemap</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#about{
+    margin:100px auto;
+    width:70%;
+    @include flex-org();
+
+    .about-heading{
+        width: $container;
+        text-align:center;
+        margin-bottom: 4rem; 
+
+
+       .title{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color:$secondary-color;
+        display:inline;
+        border-bottom: 0.3rem solid $secondary-color;
+        padding-bottom: 0.5rem;
+        }
+    }
+    .info{
+        width:30%;
+
+        img{
+            border-radius: 50%;
+            border:0.5rem solid $secondary-color;
+        }
+    }
+    .txt{
+        line-height: 1.4;
+        font-size: 1.2rem;
+    }
+    .social-media{
+        text-align: center;
+        width:25%;
+
+        a:hover{
+            color:$secondary-color;
+        }
+        p{
+            font-size:1.8rem;
+        }
+        i{
+            padding:0.8rem;
+        }
+    }
+    
+}
